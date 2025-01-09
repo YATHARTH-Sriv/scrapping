@@ -25,7 +25,7 @@ async function scrapeProducts(url) {
         }));
 
         return {
-            carouselHTML: carouselDiv.outerHTML, // The full HTML of the carousel_items div
+            // carouselHTML: carouselDiv.outerHTML, // The full HTML of the carousel_items div
             itemsfound // The extracted carousel items
         };
     });
